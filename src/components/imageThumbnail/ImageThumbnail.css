@@ -1,0 +1,30 @@
+.gallery-image-container {
+    width: 30%;
+}
+
+.gallery-image-thumbnail {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {  
+    .gallery-image-container {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .gallery-image-container {
+        width: 30%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .gallery-image-container {
+        width: 30%;
+    }
+}
