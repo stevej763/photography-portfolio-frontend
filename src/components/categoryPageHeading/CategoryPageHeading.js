@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CategoryPageHeading.css";
 
 export default function CategoryPageHeading(props) {

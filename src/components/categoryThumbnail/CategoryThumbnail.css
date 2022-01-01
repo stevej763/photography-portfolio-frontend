@@ -21,6 +21,8 @@
     display: block;
     text-align: center;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
 }
 
 .thumbnail-category-title-text {

@@ -1,6 +1,7 @@
 .photo-gallery-container {
     display: flex;
     margin: auto;
+    padding: 50px 0;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
