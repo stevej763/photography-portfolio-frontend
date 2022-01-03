@@ -16,7 +16,7 @@ export default function PhotoGallery(props) {
     return (
       <ImageThumbnail
         photoName={photo.title}
-        url={photo.thumbnailUrl}
+        url={photo.largeImageUrl}
         id={photo.id}
         key={photo.id}
       />
