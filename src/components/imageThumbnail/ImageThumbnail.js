@@ -7,8 +7,9 @@ export default function ImageThumbnail(props) {
       <img
         className="gallery-image-thumbnail"
         src={props.url}
-        alt={props.photoName}
+        alt={props.alt}
       />
+      <p>{props.photoName}</p>
     </a>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./PhotoGallery.css";
 import ImageThumbnail from "../imageThumbnail/ImageThumbnail";
-import getPhotosByCategory from "../../api/PhotosApi";
+import { getPhotosByCategory } from "../../api/PhotosApi";
 
 export default function PhotoGallery(props) {
   const [photos, setPhotos] = useState([]);
